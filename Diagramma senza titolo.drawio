@@ -1,1 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2022-11-27T18:57:16.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="qwdV-LEs-g-A5t3nP5ps" type="github"><diagram id="Qs8TNYenvPwctwUfLAS1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-27T19:41:22.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="fdq3Y__IKtl5vbE3oPfj" type="github">
+  <diagram id="Y_rNTpOOWLeISwejozK8" name="Pagina-1">
+    <mxGraphModel dx="816" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-4" value="Employees" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132" y="268" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-5" value="IdEmployee&lt;br&gt;LastName&lt;br&gt;FirstName&lt;br&gt;Title&lt;br&gt;TitleOfCourtesy&lt;br&gt;BirthDate&lt;br&gt;HireDate&lt;br&gt;Address&lt;br&gt;City&lt;br&gt;Region&lt;br&gt;PostalCode&lt;br&gt;Country&lt;br&gt;HomePhone&lt;br&gt;Extension&lt;br&gt;Photo&lt;br&gt;Notes&lt;br&gt;ReportTo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132" y="298" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-1" value="Orders" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="256" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-2" value="IdOrder&lt;br&gt;KEmployee&lt;br&gt;KCustomer&lt;br&gt;KShipper&lt;br&gt;KProduct&lt;br&gt;OrderDate&lt;br&gt;RequiredDate&lt;br&gt;ShippedDate&lt;br&gt;ShipVia&lt;br&gt;Freight&lt;br&gt;ShipName&lt;br&gt;ShipAddress&lt;br&gt;ShipCity&lt;br&gt;ShipRegion&lt;br&gt;ShipPostalCode&lt;br&gt;ShipCountry&lt;br&gt;UnitPrice&lt;br&gt;Quantity&lt;br&gt;Discount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="286" width="120" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-3" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="313" as="sourcePoint" />
+            <mxPoint x="346" y="313" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-6" value="Customers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="286" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-7" value="IdCustomer&lt;br&gt;CompanyName&lt;br&gt;ContactName&lt;br&gt;ContactTitle&lt;br&gt;Address&lt;br&gt;City&lt;br&gt;Region&lt;br&gt;PostalCode&lt;br&gt;Country&lt;br&gt;Phone&lt;br&gt;Fax" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="316" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-8" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;endFill=1;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412" y="329" as="sourcePoint" />
+            <mxPoint x="532" y="329" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-9" value="Shippers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="524" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-10" value="IdShipper&lt;br&gt;CompanyName&lt;br&gt;Phone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="554" width="120" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-11" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;endFill=1;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409" y="343" as="sourcePoint" />
+            <mxPoint x="540" y="566" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="343" />
+              <mxPoint x="480" y="566" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-12" value="Products" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217" y="646" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-13" value="IdProduct&lt;br&gt;ProductName&lt;br&gt;QuantityPerUnit&lt;br&gt;UnitPrice&lt;br&gt;UnitsInStock&lt;br&gt;UnitsInOrder&lt;br&gt;ReorderLevel&lt;br&gt;Discontinued&lt;br&gt;CategoryName&lt;br&gt;CategoryDescription&lt;br&gt;CategoryPicture&lt;br&gt;CompanyName&lt;br&gt;CompanyContactName&lt;br&gt;CompanyContactTitle&lt;br&gt;CompanyAddress&lt;br&gt;CompanyCity&lt;br&gt;CompanyRegion&lt;br&gt;CompanyPostalCode&lt;br&gt;CompanyCountry&lt;br&gt;CompanyPhone&lt;br&gt;CompanyFax&lt;br&gt;CompanyHomePage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217" y="676" width="150" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="BXgYHeVzcx0ElytY6dlO-14" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="690" as="sourcePoint" />
+            <mxPoint x="353.0000000000002" y="357" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="690" />
+              <mxPoint x="350" y="590" />
+              <mxPoint x="280" y="590" />
+              <mxPoint x="280" y="357" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
